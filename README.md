@@ -9,7 +9,7 @@ The first line is only needed to set permissions for the bash script so that you
 ```
 ./CheckResults.sh yash_unfolding.root
 ```
-First, it checks the normalization of the response matrix. The output running on your response matrix looks like this:
+First, it checks the normalization of the response matrix. The sum ov events in each row must equal 1, so this is what it checks. The output running on your response matrix looks like this:
 ```
 number of events in row 1: 0.00512198
 number of events in row 2: 0.00512198
